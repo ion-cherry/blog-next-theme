@@ -1,0 +1,213 @@
+body {
+ 	background:url(/uploads/bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    background-position:50% 50%;
+    cursor: url(/uploads/curs.ico), auto;
+}
+
+.site-author-image {
+    background-color: lightblue;
+    background-image: linear-gradient(to right , #7A88FF, #7AFFAF);
+  border: 3px solid purple;
+ // 修改头像边框
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  // 设置旋转
+  transition: 3s all;
+}
+// 可旋转的圆形头像,`hover`动作
+.site-author-image:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -transform: rotate(360deg);
+}
+
+.footer {
+    color: lightgoldenrodyellow;
+}
+.footer a {
+    text-decoration: none;
+    background: transparent;
+    
+}
+.footer a:hover {
+    color: lightgoldenrodyellow
+}
+
+// 我的博客
+.site-brand-container {
+    
+    background: -webkit-linear-gradient(top, #ff3e18 16.66%,#fc9a00 16.66%, #fc9a00 33.32%, #ffd800 33.32%, #ffd800 49.98%, #39ea7c 49.98%, #39ea7c 66.64%, #0bb2ff 66.64%, #0bb2ff 80.3%, #985aff 80.3% );
+    background-image: -webkit-linear-gradient(top, #ff3e18 16.66%,#fc9a00 16.66%, #fc9a00 33.32%, #ffd800 33.32%, #ffd800 49.98%, #39ea7c 49.98%, #39ea7c 66.64%, #0bb2ff 66.64%, #0bb2ff 80.3%, #985aff 80.3% );
+    opacity: 0.4;
+}
+
+.site-brand-container h1 {
+    color: #000;
+    font-family: Times, TimesNR, 'New Century Schoolbook', Georgia, 'New York', serif;
+    opacity: 1 !important;
+    font-weight: 800
+}
+
+.site-subtitle {
+    margin: 0;
+    color: purple; 
+    box-shadow: 0 0 10px 10px yellow ;
+    text-shadow: 2px 2px 4px #fff ;  
+}
+
+//menu 
+// #menu li:hover {
+//     background: purple!important 
+// }
+
+#menu .menu-item a:hover,
+.menu-item span.exturl:hover,
+.menu-item a.menu-item-active,
+.menu-item span.exturl.menu-item-active {
+  background: purple!important;
+  color: #fff
+}
+
+//links
+.links-of-author-item a:hover,
+.links-of-author-item span.exturl:hover {
+  background: orange!important;
+  border-radius: 4px;
+}
+
+
+// About 
+.content {
+
+}
+.post-meta {
+    margin-bottom: 0!important
+}
+
+.post-title {
+    color: purple;
+    font-weight:800;
+    
+}
+blockquote {
+    color: #a51212
+}
+hr {
+    margin: 0
+}
+h2 {
+    color: orange!important;
+    margin-top: 0
+}
+
+.table-container thead tr th:first-child, .table-container tbody tr td:first-child {
+    color: #ff0081;   
+    
+}
+.table-container thead tr th:nth-child(2), .table-container tbody tr td:nth-child(2) {
+    color: purple
+}
+.table-container thead tr th:nth-of-type(3), .table-container tbody tr td:nth-child(3) {
+    color: #24b2b9  
+}
+
+a {
+    text-decoration: none!important;
+    border-bottom: 0 !important;
+}
+a:hover {
+    background: purple;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+// main
+.main {
+    backgorundColor: #999     
+}
+// 文章缩略阅读全文
+.post-button .btn {
+    background: #97dffd;
+    color: #fff;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px; 
+    padding: 1px 15px;
+    transition: all .3s ease ;
+}
+.post-button .btn:hover {
+    transform: scale(1.1)
+}
+.post-block {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    box-shadow: purple 0 0 20px;
+}
+.post-eof {
+    display: none
+}
+
+
+//tags
+.tag-cloud-tags .tag-cloud-0 {
+    padding: 0 10px;
+    border-radius: 999em;
+    background: rgba(175,184, 233, 1);
+    color: #fff
+}
+.tag-cloud-tags .tag-cloud-0:hover {
+    background: purple
+}
+
+//footer
+.ywz {
+    font-style:normal;
+    color: purple;
+    animation: colorMore 5s infinite ease-in-out;
+    -webkit-animation: colorMore 5s infinite ease-in-out;
+    -moz-animation: colorMore 5s infinite ease-in-out;
+    -ms-animation: colorMore 5s infinite ease-in-out;
+}
+.footer {
+    margin-top: 50px;
+    background: url(/uploads/hh.gif) no-repeat;
+    background-size: 100% 100%;
+    
+}
+.footer .footer-inner {
+    background: rgba(35,35,35, 0.4);
+        
+}
+
+@keyframes colorMore {
+    0% {color: red;}
+    20% {color: orange;}
+    40% {color: yellow;}
+    60% {color: green; }
+    80% {color: blue;}
+    90% {color: cyan;}
+    100% {color: purple;}
+}
+
+//回到顶部
+.back-to-top {
+    border-radius: 50%;
+    // bottom: 55px;
+    // right: 5px;
+    background: #f00;
+    
+}
+.back-to-top.back-to-top-on {
+    bottom: 55px!important;  
+    right: 5px;  
+}
+.main-inner {
+    opacity: 0.9
+}
